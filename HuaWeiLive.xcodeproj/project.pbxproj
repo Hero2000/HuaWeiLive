@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		985EBCAA1E4D6E15008BD1FF /* FSCheckAudioPrivileges.m in Sources */ = {isa = PBXBuildFile; fileRef = 985EBC9C1E4D6E15008BD1FF /* FSCheckAudioPrivileges.m */; };
-		985EBCAB1E4D6E15008BD1FF /* FSCheckCameraPrivileges.m in Sources */ = {isa = PBXBuildFile; fileRef = 985EBC9E1E4D6E15008BD1FF /* FSCheckCameraPrivileges.m */; };
-		985EBCAC1E4D6E15008BD1FF /* FSCheckLocationPrivileges.m in Sources */ = {isa = PBXBuildFile; fileRef = 985EBCA01E4D6E15008BD1FF /* FSCheckLocationPrivileges.m */; };
-		985EBCAD1E4D6E15008BD1FF /* FSCheckSystemPrivileges.m in Sources */ = {isa = PBXBuildFile; fileRef = 985EBCA21E4D6E15008BD1FF /* FSCheckSystemPrivileges.m */; };
-		985EBCAE1E4D6E15008BD1FF /* FSSystemPrivilegesCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 985EBCA41E4D6E15008BD1FF /* FSSystemPrivilegesCheck.m */; };
-		985EBCAF1E4D6E15008BD1FF /* FSSystemPrivilegesFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 985EBCA61E4D6E15008BD1FF /* FSSystemPrivilegesFactory.m */; };
-		985EBCB01E4D6E15008BD1FF /* FSSystemShareManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 985EBCA91E4D6E15008BD1FF /* FSSystemShareManage.m */; };
+		980CD5551E5325580015BA0A /* FSImageLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 980CD5421E5325580015BA0A /* FSImageLabel.m */; };
+		980CD5561E5325580015BA0A /* SharedLanguages.m in Sources */ = {isa = PBXBuildFile; fileRef = 980CD5441E5325580015BA0A /* SharedLanguages.m */; };
+		980CD5571E5325580015BA0A /* FSCheckAudioPrivileges.m in Sources */ = {isa = PBXBuildFile; fileRef = 980CD5471E5325580015BA0A /* FSCheckAudioPrivileges.m */; };
+		980CD5581E5325580015BA0A /* FSCheckCameraPrivileges.m in Sources */ = {isa = PBXBuildFile; fileRef = 980CD5491E5325580015BA0A /* FSCheckCameraPrivileges.m */; };
+		980CD5591E5325580015BA0A /* FSCheckLocationPrivileges.m in Sources */ = {isa = PBXBuildFile; fileRef = 980CD54B1E5325580015BA0A /* FSCheckLocationPrivileges.m */; };
+		980CD55A1E5325580015BA0A /* FSCheckSystemPrivileges.m in Sources */ = {isa = PBXBuildFile; fileRef = 980CD54D1E5325580015BA0A /* FSCheckSystemPrivileges.m */; };
+		980CD55B1E5325580015BA0A /* FSSystemPrivilegesCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 980CD54F1E5325580015BA0A /* FSSystemPrivilegesCheck.m */; };
+		980CD55C1E5325580015BA0A /* FSSystemPrivilegesFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 980CD5511E5325580015BA0A /* FSSystemPrivilegesFactory.m */; };
+		980CD55D1E5325580015BA0A /* FSSystemShareManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 980CD5541E5325580015BA0A /* FSSystemShareManage.m */; };
 		985EBCB61E4DADC7008BD1FF /* HuaWEiLive_CN.strings in Resources */ = {isa = PBXBuildFile; fileRef = 985EBCB81E4DADC7008BD1FF /* HuaWEiLive_CN.strings */; };
-		985EBCBE1E4DB61B008BD1FF /* SharedLanguages.m in Sources */ = {isa = PBXBuildFile; fileRef = 985EBCBD1E4DB61B008BD1FF /* SharedLanguages.m */; };
 		985EBCE01E4DCE41008BD1FF /* LocalConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 985EBCC41E4DCE41008BD1FF /* LocalConnection.m */; };
 		985EBCE11E4DCE41008BD1FF /* FSMEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 985EBCC81E4DCE41008BD1FF /* FSMEngine.m */; };
 		985EBCE21E4DCE41008BD1FF /* FSMStateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 985EBCCA1E4DCE41008BD1FF /* FSMStateUtil.m */; };
@@ -58,7 +59,6 @@
 		98A015C31E4C1F1F00A8A9C6 /* FSSelectRoomIdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A015C21E4C1F1F00A8A9C6 /* FSSelectRoomIdView.m */; };
 		98A015C51E4C5C2400A8A9C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98A015C41E4C5C2400A8A9C6 /* Images.xcassets */; };
 		98A015F41E4C8CC300A8A9C6 /* FSSelectResolutionview.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A015F31E4C8CC300A8A9C6 /* FSSelectResolutionview.m */; };
-		98A015F71E4C8EB500A8A9C6 /* FSImageLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A015F61E4C8EB500A8A9C6 /* FSImageLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,27 +79,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		985EBC9B1E4D6E15008BD1FF /* FSCheckAudioPrivileges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCheckAudioPrivileges.h; sourceTree = "<group>"; };
-		985EBC9C1E4D6E15008BD1FF /* FSCheckAudioPrivileges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCheckAudioPrivileges.m; sourceTree = "<group>"; };
-		985EBC9D1E4D6E15008BD1FF /* FSCheckCameraPrivileges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCheckCameraPrivileges.h; sourceTree = "<group>"; };
-		985EBC9E1E4D6E15008BD1FF /* FSCheckCameraPrivileges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCheckCameraPrivileges.m; sourceTree = "<group>"; };
-		985EBC9F1E4D6E15008BD1FF /* FSCheckLocationPrivileges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCheckLocationPrivileges.h; sourceTree = "<group>"; };
-		985EBCA01E4D6E15008BD1FF /* FSCheckLocationPrivileges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCheckLocationPrivileges.m; sourceTree = "<group>"; };
-		985EBCA11E4D6E15008BD1FF /* FSCheckSystemPrivileges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCheckSystemPrivileges.h; sourceTree = "<group>"; };
-		985EBCA21E4D6E15008BD1FF /* FSCheckSystemPrivileges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCheckSystemPrivileges.m; sourceTree = "<group>"; };
-		985EBCA31E4D6E15008BD1FF /* FSSystemPrivilegesCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSystemPrivilegesCheck.h; sourceTree = "<group>"; };
-		985EBCA41E4D6E15008BD1FF /* FSSystemPrivilegesCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSystemPrivilegesCheck.m; sourceTree = "<group>"; };
-		985EBCA51E4D6E15008BD1FF /* FSSystemPrivilegesFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSystemPrivilegesFactory.h; sourceTree = "<group>"; };
-		985EBCA61E4D6E15008BD1FF /* FSSystemPrivilegesFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSystemPrivilegesFactory.m; sourceTree = "<group>"; };
-		985EBCA71E4D6E15008BD1FF /* FSSystemPrivilegesHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSystemPrivilegesHeader.h; sourceTree = "<group>"; };
-		985EBCA81E4D6E15008BD1FF /* FSSystemShareManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSystemShareManage.h; sourceTree = "<group>"; };
-		985EBCA91E4D6E15008BD1FF /* FSSystemShareManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSystemShareManage.m; sourceTree = "<group>"; };
+		980CD5411E5325580015BA0A /* FSImageLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSImageLabel.h; sourceTree = "<group>"; };
+		980CD5421E5325580015BA0A /* FSImageLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSImageLabel.m; sourceTree = "<group>"; };
+		980CD5431E5325580015BA0A /* SharedLanguages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedLanguages.h; sourceTree = "<group>"; };
+		980CD5441E5325580015BA0A /* SharedLanguages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedLanguages.m; sourceTree = "<group>"; };
+		980CD5461E5325580015BA0A /* FSCheckAudioPrivileges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCheckAudioPrivileges.h; sourceTree = "<group>"; };
+		980CD5471E5325580015BA0A /* FSCheckAudioPrivileges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCheckAudioPrivileges.m; sourceTree = "<group>"; };
+		980CD5481E5325580015BA0A /* FSCheckCameraPrivileges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCheckCameraPrivileges.h; sourceTree = "<group>"; };
+		980CD5491E5325580015BA0A /* FSCheckCameraPrivileges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCheckCameraPrivileges.m; sourceTree = "<group>"; };
+		980CD54A1E5325580015BA0A /* FSCheckLocationPrivileges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCheckLocationPrivileges.h; sourceTree = "<group>"; };
+		980CD54B1E5325580015BA0A /* FSCheckLocationPrivileges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCheckLocationPrivileges.m; sourceTree = "<group>"; };
+		980CD54C1E5325580015BA0A /* FSCheckSystemPrivileges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCheckSystemPrivileges.h; sourceTree = "<group>"; };
+		980CD54D1E5325580015BA0A /* FSCheckSystemPrivileges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCheckSystemPrivileges.m; sourceTree = "<group>"; };
+		980CD54E1E5325580015BA0A /* FSSystemPrivilegesCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSystemPrivilegesCheck.h; sourceTree = "<group>"; };
+		980CD54F1E5325580015BA0A /* FSSystemPrivilegesCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSystemPrivilegesCheck.m; sourceTree = "<group>"; };
+		980CD5501E5325580015BA0A /* FSSystemPrivilegesFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSystemPrivilegesFactory.h; sourceTree = "<group>"; };
+		980CD5511E5325580015BA0A /* FSSystemPrivilegesFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSystemPrivilegesFactory.m; sourceTree = "<group>"; };
+		980CD5521E5325580015BA0A /* FSSystemPrivilegesHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSystemPrivilegesHeader.h; sourceTree = "<group>"; };
+		980CD5531E5325580015BA0A /* FSSystemShareManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSystemShareManage.h; sourceTree = "<group>"; };
+		980CD5541E5325580015BA0A /* FSSystemShareManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSystemShareManage.m; sourceTree = "<group>"; };
 		985EBCB71E4DADC7008BD1FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/HuaWEiLive_CN.strings; sourceTree = "<group>"; };
 		985EBCB91E4DAE6F008BD1FF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		985EBCBA1E4DAE6F008BD1FF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		985EBCBB1E4DAE6F008BD1FF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/HuaWEiLive_CN.strings"; sourceTree = "<group>"; };
-		985EBCBC1E4DB61B008BD1FF /* SharedLanguages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedLanguages.h; sourceTree = "<group>"; };
-		985EBCBD1E4DB61B008BD1FF /* SharedLanguages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedLanguages.m; sourceTree = "<group>"; };
 		985EBCC31E4DCE41008BD1FF /* LocalConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalConnection.h; sourceTree = "<group>"; };
 		985EBCC41E4DCE41008BD1FF /* LocalConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalConnection.m; sourceTree = "<group>"; };
 		985EBCC61E4DCE41008BD1FF /* FSMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMDefines.h; sourceTree = "<group>"; };
@@ -145,7 +147,7 @@
 		98658EBF1E4ACBAB00354785 /* FlyRtmpRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyRtmpRecorder.h; sourceTree = "<group>"; };
 		986593021E4B035800354785 /* FSLivePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLivePlayerViewController.h; sourceTree = "<group>"; };
 		986593031E4B035800354785 /* FSLivePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLivePlayerViewController.m; sourceTree = "<group>"; };
-		986593051E4B090F00354785 /* libFlyRtmpPlayerEngine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlyRtmpPlayerEngine.a; sourceTree = "<group>"; };
+		986593051E4B090F00354785 /* libFlyRtmpPlayerEngine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlyRtmpPlayerEngine.a; path = HuaWeiLive/libFlyRtmpPlayerEngine.a; sourceTree = "<group>"; };
 		9865930A1E4B0A2100354785 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		9865930C1E4B0BFA00354785 /* FSSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSettingViewController.h; sourceTree = "<group>"; };
 		9865930D1E4B0BFA00354785 /* FSSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSettingViewController.m; sourceTree = "<group>"; };
@@ -161,7 +163,7 @@
 		986593221E4B36B500354785 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		986593241E4B36CC00354785 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		986593261E4B36E200354785 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		986595651E4B3C6C00354785 /* libGPUImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGPUImage.a; sourceTree = "<group>"; };
+		986595651E4B3C6C00354785 /* libGPUImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGPUImage.a; path = HuaWeiLive/libGPUImage.a; sourceTree = "<group>"; };
 		98A014F51E4C105E00A8A9C6 /* GLProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLProgram.h; sourceTree = "<group>"; };
 		98A014F61E4C105E00A8A9C6 /* GPUImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImage.h; sourceTree = "<group>"; };
 		98A014F71E4C105E00A8A9C6 /* GPUImage3x3ConvolutionFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImage3x3ConvolutionFilter.h; sourceTree = "<group>"; };
@@ -345,8 +347,6 @@
 		98A015C41E4C5C2400A8A9C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		98A015F21E4C8CC300A8A9C6 /* FSSelectResolutionview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSelectResolutionview.h; sourceTree = "<group>"; };
 		98A015F31E4C8CC300A8A9C6 /* FSSelectResolutionview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSelectResolutionview.m; sourceTree = "<group>"; };
-		98A015F51E4C8EB500A8A9C6 /* FSImageLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSImageLabel.h; sourceTree = "<group>"; };
-		98A015F61E4C8EB500A8A9C6 /* FSImageLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSImageLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -389,24 +389,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		985EBC9A1E4D6E15008BD1FF /* SystemPrivileges */ = {
+		980CD5401E5325580015BA0A /* Commen */ = {
 			isa = PBXGroup;
 			children = (
-				985EBC9B1E4D6E15008BD1FF /* FSCheckAudioPrivileges.h */,
-				985EBC9C1E4D6E15008BD1FF /* FSCheckAudioPrivileges.m */,
-				985EBC9D1E4D6E15008BD1FF /* FSCheckCameraPrivileges.h */,
-				985EBC9E1E4D6E15008BD1FF /* FSCheckCameraPrivileges.m */,
-				985EBC9F1E4D6E15008BD1FF /* FSCheckLocationPrivileges.h */,
-				985EBCA01E4D6E15008BD1FF /* FSCheckLocationPrivileges.m */,
-				985EBCA11E4D6E15008BD1FF /* FSCheckSystemPrivileges.h */,
-				985EBCA21E4D6E15008BD1FF /* FSCheckSystemPrivileges.m */,
-				985EBCA31E4D6E15008BD1FF /* FSSystemPrivilegesCheck.h */,
-				985EBCA41E4D6E15008BD1FF /* FSSystemPrivilegesCheck.m */,
-				985EBCA51E4D6E15008BD1FF /* FSSystemPrivilegesFactory.h */,
-				985EBCA61E4D6E15008BD1FF /* FSSystemPrivilegesFactory.m */,
-				985EBCA71E4D6E15008BD1FF /* FSSystemPrivilegesHeader.h */,
-				985EBCA81E4D6E15008BD1FF /* FSSystemShareManage.h */,
-				985EBCA91E4D6E15008BD1FF /* FSSystemShareManage.m */,
+				980CD5411E5325580015BA0A /* FSImageLabel.h */,
+				980CD5421E5325580015BA0A /* FSImageLabel.m */,
+				980CD5431E5325580015BA0A /* SharedLanguages.h */,
+				980CD5441E5325580015BA0A /* SharedLanguages.m */,
+				980CD5451E5325580015BA0A /* SystemPrivileges */,
+			);
+			path = Commen;
+			sourceTree = "<group>";
+		};
+		980CD5451E5325580015BA0A /* SystemPrivileges */ = {
+			isa = PBXGroup;
+			children = (
+				980CD5461E5325580015BA0A /* FSCheckAudioPrivileges.h */,
+				980CD5471E5325580015BA0A /* FSCheckAudioPrivileges.m */,
+				980CD5481E5325580015BA0A /* FSCheckCameraPrivileges.h */,
+				980CD5491E5325580015BA0A /* FSCheckCameraPrivileges.m */,
+				980CD54A1E5325580015BA0A /* FSCheckLocationPrivileges.h */,
+				980CD54B1E5325580015BA0A /* FSCheckLocationPrivileges.m */,
+				980CD54C1E5325580015BA0A /* FSCheckSystemPrivileges.h */,
+				980CD54D1E5325580015BA0A /* FSCheckSystemPrivileges.m */,
+				980CD54E1E5325580015BA0A /* FSSystemPrivilegesCheck.h */,
+				980CD54F1E5325580015BA0A /* FSSystemPrivilegesCheck.m */,
+				980CD5501E5325580015BA0A /* FSSystemPrivilegesFactory.h */,
+				980CD5511E5325580015BA0A /* FSSystemPrivilegesFactory.m */,
+				980CD5521E5325580015BA0A /* FSSystemPrivilegesHeader.h */,
+				980CD5531E5325580015BA0A /* FSSystemShareManage.h */,
+				980CD5541E5325580015BA0A /* FSSystemShareManage.m */,
 			);
 			path = SystemPrivileges;
 			sourceTree = "<group>";
@@ -493,14 +505,7 @@
 		98658E8A1E4AC89C00354785 /* HuaWeiLive */ = {
 			isa = PBXGroup;
 			children = (
-				985EBCBC1E4DB61B008BD1FF /* SharedLanguages.h */,
-				985EBCBD1E4DB61B008BD1FF /* SharedLanguages.m */,
-				985EBC9A1E4D6E15008BD1FF /* SystemPrivileges */,
-				98A015F51E4C8EB500A8A9C6 /* FSImageLabel.h */,
-				98A015F61E4C8EB500A8A9C6 /* FSImageLabel.m */,
-				98A014F41E4C105E00A8A9C6 /* GPUImage */,
-				986595651E4B3C6C00354785 /* libGPUImage.a */,
-				986593051E4B090F00354785 /* libFlyRtmpPlayerEngine.a */,
+				980CD5401E5325580015BA0A /* Commen */,
 				98658EBF1E4ACBAB00354785 /* FlyRtmpRecorder.h */,
 				98658E8E1E4AC89C00354785 /* AppDelegate.h */,
 				98658E8F1E4AC89C00354785 /* AppDelegate.m */,
@@ -554,6 +559,9 @@
 		986593091E4B0A2100354785 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				98A014F41E4C105E00A8A9C6 /* GPUImage */,
+				986595651E4B3C6C00354785 /* libGPUImage.a */,
+				986593051E4B090F00354785 /* libFlyRtmpPlayerEngine.a */,
 				986593261E4B36E200354785 /* Foundation.framework */,
 				986593241E4B36CC00354785 /* QuartzCore.framework */,
 				986593221E4B36B500354785 /* OpenGLES.framework */,
@@ -745,7 +753,8 @@
 				98A0159D1E4C105E00A8A9C6 /* GPUImageZoomBlurFilter.h */,
 				98A0159E1E4C105E00A8A9C6 /* iOS */,
 			);
-			path = GPUImage;
+			name = GPUImage;
+			path = HuaWeiLive/GPUImage;
 			sourceTree = "<group>";
 		};
 		98A0159E1E4C105E00A8A9C6 /* iOS */ = {
@@ -912,35 +921,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				980CD5591E5325580015BA0A /* FSCheckLocationPrivileges.m in Sources */,
 				985EBCED1E4DCE41008BD1FF /* RealReachability.m in Sources */,
 				985EBCEA1E4DCE41008BD1FF /* PingFoundation.m in Sources */,
 				985EBCE11E4DCE41008BD1FF /* FSMEngine.m in Sources */,
-				985EBCAF1E4D6E15008BD1FF /* FSSystemPrivilegesFactory.m in Sources */,
-				985EBCB01E4D6E15008BD1FF /* FSSystemShareManage.m in Sources */,
-				985EBCAE1E4D6E15008BD1FF /* FSSystemPrivilegesCheck.m in Sources */,
-				985EBCAB1E4D6E15008BD1FF /* FSCheckCameraPrivileges.m in Sources */,
 				986593041E4B035800354785 /* FSLivePlayerViewController.m in Sources */,
+				980CD5571E5325580015BA0A /* FSCheckAudioPrivileges.m in Sources */,
 				985EBCE71E4DCE41008BD1FF /* ReachStateWIFI.m in Sources */,
 				98A015F41E4C8CC300A8A9C6 /* FSSelectResolutionview.m in Sources */,
 				985EBCE21E4DCE41008BD1FF /* FSMStateUtil.m in Sources */,
 				985EBCEC1E4DCE41008BD1FF /* README.md in Sources */,
-				985EBCAA1E4D6E15008BD1FF /* FSCheckAudioPrivileges.m in Sources */,
 				985EBCE81E4DCE41008BD1FF /* ReachStateWWAN.m in Sources */,
 				985EBCEB1E4DCE41008BD1FF /* PingHelper.m in Sources */,
+				980CD55A1E5325580015BA0A /* FSCheckSystemPrivileges.m in Sources */,
+				980CD5561E5325580015BA0A /* SharedLanguages.m in Sources */,
+				980CD55C1E5325580015BA0A /* FSSystemPrivilegesFactory.m in Sources */,
 				98658E931E4AC89C00354785 /* ViewController.m in Sources */,
 				98658E901E4AC89C00354785 /* AppDelegate.m in Sources */,
-				985EBCAD1E4D6E15008BD1FF /* FSCheckSystemPrivileges.m in Sources */,
 				985EBCE61E4DCE41008BD1FF /* ReachStateUnReachable.m in Sources */,
 				985EBCE41E4DCE41008BD1FF /* ReachStateLoading.m in Sources */,
-				985EBCBE1E4DB61B008BD1FF /* SharedLanguages.m in Sources */,
 				9865930E1E4B0BFA00354785 /* FSSettingViewController.m in Sources */,
-				98A015F71E4C8EB500A8A9C6 /* FSImageLabel.m in Sources */,
 				98658E8D1E4AC89C00354785 /* main.m in Sources */,
+				980CD55D1E5325580015BA0A /* FSSystemShareManage.m in Sources */,
 				985EBCE01E4DCE41008BD1FF /* LocalConnection.m in Sources */,
 				98A015C31E4C1F1F00A8A9C6 /* FSSelectRoomIdView.m in Sources */,
-				985EBCAC1E4D6E15008BD1FF /* FSCheckLocationPrivileges.m in Sources */,
 				985EBCE31E4DCE41008BD1FF /* ReachState.m in Sources */,
 				985EBCE51E4DCE41008BD1FF /* ReachStateUnloaded.m in Sources */,
+				980CD5581E5325580015BA0A /* FSCheckCameraPrivileges.m in Sources */,
+				980CD55B1E5325580015BA0A /* FSSystemPrivilegesCheck.m in Sources */,
+				980CD5551E5325580015BA0A /* FSImageLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

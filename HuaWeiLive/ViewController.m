@@ -120,21 +120,6 @@
 
     [_headView addSubview:_selectRoomButton];
 
-    
-//    _selectRoomButton.frame = CGRectMake(CGRectGetMaxX(_roomNumLabel.frame)+5, CGRectGetMaxY(_roomNameLabel.frame)+10, CGRectGetWidth(_roomNameLabel.frame)-CGRectGetWidth(_roomNumLabel.frame)-5, 15);
-//    _selectRoomButton.backgroundColor = [UIColor clearColor];
-//    [_selectRoomButton.titleLabel setFont:[UIFont systemFontOfSize:15]];
-//    [_selectRoomButton setTitle:@"请选择" forState:UIControlStateNormal];
-//    [_selectRoomButton setImage:[UIImage imageNamed:@"open"] forState:UIControlStateNormal];
-//    //_selectRoomButton.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
-//    CGFloat contentWidth = _selectRoomButton.titleLabel.frame.size.width+_selectRoomButton.imageView.frame.size.width;
-//    _selectRoomButton.imageEdgeInsets = UIEdgeInsetsMake(0, _selectRoomButton.titleLabel.frame.size.width-(_selectRoomButton.frame.size.width-contentWidth)/2+_selectRoomButton.imageView.frame.size.width+_selectRoomButton.imageView.frame.size.width, 0, (_selectRoomButton.frame.size.width-contentWidth)-((_selectRoomButton.frame.size.width-contentWidth)/2+_selectRoomButton.titleLabel.frame.size.width)-_selectRoomButton.imageView.frame.size.width);
-//    _selectRoomButton.titleEdgeInsets = UIEdgeInsetsMake(0, -(_selectRoomButton.frame.size.width-contentWidth)/2-_selectRoomButton.imageView.frame.size.width, 0, (_selectRoomButton.frame.size.width-_selectRoomButton.titleLabel.frame.size.width)-(_selectRoomButton.frame.size.width-contentWidth)/2);
-//    
-//    [_selectRoomButton addTarget:self action:@selector(selectRoom:) forControlEvents:UIControlEventTouchUpInside];
-//    [_headView addSubview:_selectRoomButton];
-
-
     _bottomView = [[UIView alloc] initWithFrame:CGRectMake(0, 200, self.view.frame.size.width, self.view.frame.size.height-20-200)];
     _bottomView.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:_bottomView];
