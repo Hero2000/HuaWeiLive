@@ -1,0 +1,35 @@
+/* 
+  HuaWEiLive_CN.strings
+  HuaWeiLive
+
+  Created by 王明 on 2017/2/10.
+  Copyright © 2017年 王明. All rights reserved.
+*/
+
+RoomNumText = "房间号:";
+SelectText = "请选择";
+SelectRoomText = "请选择房间";
+CodeRateText = "码率";
+ResolutionText = "分辨率";
+StartLive = "开始直播";
+StopLive = "停止直播";
+Camera = "照相机";
+Photos = "照片";
+Cancel = "取消";
+Sure = "确定";
+Tips = "提示";
+NoLiveAddress = "您还没有设置直播地址哦！";
+TipsSelectRoom = "请选择房间";
+TipsSelectResolution = "请选择分辨率";
+PhotoCantUse = "相机权限受限";
+Setting = "设置";
+ServerAddress = "服务器地址";
+Save = "保存";
+LiveFaild = "开播失败";
+CameraControll = "需要摄像头权限";
+photoControll = "请前往\"设置 - 隐私 - 照片\"打开照片权限.";
+MicrophoneControll = "需要麦克风权限";
+BadNetWork = "当前网络状况不好";
+Copy = "直播观看地址已复制到剪切板，请通过微信分享或在浏览器直接打开观看";
+StartLiving = "开播中...";
+Roomoccupy = "房间已经被占用";

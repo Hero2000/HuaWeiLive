@@ -1,0 +1,33 @@
+/* 
+  HuaWEiLive_CN.strings
+  HuaWeiLive
+
+  Created by 王明 on 2017/2/10.
+  Copyright © 2017年 王明. All rights reserved.
+*/
+RoomNumText = "Room No.";
+SelectText = "Please choose";
+SelectRoomText = "Please choose";
+CodeRateText = "Bitrate";
+ResolutionText = "Resolution";
+StartLive = "Start";
+StopLive = "Stop";
+Cancel = "Cancel";
+Sure = "Sure";
+Tips = "Tips";
+TipsSelectRoom = "Please choose a room!";
+TipsSelectResolution = "Please select a resolution!";
+Setting = "Setting";
+ServerAddress = "Server Address";
+Save = "Save";
+LiveFaild = "Live failed";
+Carema = "Take Photo";
+Photos = "Choose Photo";
+PhotoCantUse ="Camera unavailable";
+CameraControll = "Camera permission is mandatory";
+photoControll = "Please go to \"Settings - Privacy - Photos\" options and allow the app to access your photos.";
+MicrophoneControll = "Microphone permission is mandatory";
+BadNetWork = "Network unreachable";
+Copy = "The live video URL has been copied to the clipboard. You can share the video to the SNS application or watch it on the browser.";
+StartLiving = "On live...";
+Roomoccupy = "This room is occupied";
